@@ -1,0 +1,38 @@
+{
+  "users": 90000,
+  "group_sizes": {
+    "gate_30": 45000,
+    "gate_40": 45000
+  },
+  "sample_ratio_mismatch_p_value": 1.0,
+  "day_1": {
+    "control_rate": 0.44884444444444443,
+    "treatment_rate": 0.44037777777777776,
+    "difference_pp": -0.8466666666666678,
+    "p_value": 0.010596530430290163,
+    "ci_low_pp": -1.4959433715887043,
+    "ci_high_pp": -0.1973899617446315
+  },
+  "day_7": {
+    "control_rate": 0.1962888888888889,
+    "treatment_rate": 0.1802888888888889,
+    "difference_pp": -1.6000000000000014,
+    "p_value": 8.303875061692206e-10,
+    "ci_low_pp": -2.1107154244557473,
+    "ci_high_pp": -1.0892845755442553
+  },
+  "engagement": {
+    "median_rounds": {
+      "gate_30": 12.0,
+      "gate_40": 12.0
+    },
+    "mean_rounds": {
+      "gate_30": 17.535222222222224,
+      "gate_40": 16.459577777777778
+    },
+    "mann_whitney_p_value": 0.7450277853444847
+  },
+  "decision": "KEEP GATE AT LEVEL 30 \u2014 treatment significantly reduces 7-day retention.",
+  "source_filename": "cookie_cats.csv",
+  "demo_data": true
+}

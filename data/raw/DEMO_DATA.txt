@@ -1,0 +1,1 @@
+DATA NOTICE: The bundled cookie_cats.csv is SYNTHETIC demo data and NOT the real public Cookie Cats experiment. Read README for original source and real-data use.
